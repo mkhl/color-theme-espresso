@@ -10,7 +10,7 @@
 (eval-when-compile
   (require 'color-theme))
 
-;; TODO: More faces? `list-faces-display'.
+;;; TODO: More faces? `list-faces-display'.
 
 ;;;###autoload
 (defun color-theme-espresso ()
