@@ -85,6 +85,22 @@ Port of the default theme for Espresso on Mac OS X."
        (font-lock-variable-name-face ((t (:foreground "#7B8C4D"))))
        (font-lock-warning-face ((t (:foreground "#F93232"))))
 
+       ;; Diff Mode
+       (diff-file-header ((t (:bold t :inherit diff-header))))
+       (diff-header ((t (:background "#DDDDFF" :foreground "grey20"))))
+       (diff-added ((t (:background "#DDFFDD"))))
+       (diff-removed ((t (:background "#FFDDDD"))))
+       (diff-changed ((t (:background "#FFFFDD"))))
+       (diff-refine-change ((t (:background "#DDDDFF"))))
+
+       ;; Magit
+       (magit-diff-file-header ((t (:bold t :inherit diff-header))))
+       (magit-diff-hunk-header ((t (:inherit diff-header))))
+       (magit-diff-add ((t (:inherit diff-added :foreground "grey20"))))
+       (magit-diff-del ((t (:inherit diff-removed :foreground "grey20"))))
+       (magit-diff-none ((t (:inherit diff-context :foreground "grey20"))))
+       (magit-item-highlight ((t (:background nil :foreground "black"))))
+
        ;; Done
        ))))
 
