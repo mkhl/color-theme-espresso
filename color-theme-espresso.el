@@ -21,6 +21,7 @@ Port of the default theme for Espresso on Mac OS X."
   (let ((selection-color (if (featurep 'ns) "ns_selection_color" "#C9D0D9"))
         (highlight-color "#EEE00A")
         (secondary-color "#FBE9AD")
+        (active-color "#EEEEEE")
         (passive-color "#AAAAAA")
         (subtle-color "#EEEEEE")
         (error-color "#F93232"))
@@ -54,7 +55,8 @@ Port of the default theme for Espresso on Mac OS X."
        (show-paren-mismatch ((t (:foreground "#F9F2CE" :background ,error-color))))
 
        ;; Highlighting
-       (hl-line ((t (:background ,subtle-color))))
+       (hl-line ((t (:background ,active-color))))
+       (highline-face ((t (:background ,active-color))))
        (highlight ((t (:background ,highlight-color))))
        (highlight-symbol-face ((t (:background ,secondary-color))))
        (isearch ((t (:background ,highlight-color))))
