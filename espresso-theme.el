@@ -1,11 +1,13 @@
-;;;; espresso-theme.el
-;; -*- mode: elisp -*-
+;;; espresso-theme.el --- Espresso Tutti Colori port for Emacs
+
+;; Author: Martin Kühl <purl.org/net/mkhl>
+;; URL: https://github.com/mkhl/color-theme-espresso
+;; Version: 1.0
+
+;;; Commentary:
 ;;
-;; Based on Espresso Tutti Colori, the default theme for Espresso,
-;; by MacRabbit.
+;; Espresso Tutti Colori is the default theme for Espresso, by MacRabbit.
 ;; Source: <http://macrabbit.com/espresso>
-;; Ported to Emacs by Martin Kühl <purl.org/net/mkhl>
-;;
 
 ;;; TODO: More faces? `list-faces-display'.
 
@@ -100,3 +102,5 @@ Port of the default theme for Espresso on Mac OS X.")
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'espresso)
+
+;;; espresso-theme.el ends here
