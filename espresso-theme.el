@@ -1,4 +1,4 @@
-;;;; color-theme-espresso.el
+;;;; espresso-theme.el
 ;; -*- mode: elisp -*-
 ;;
 ;; Based on Espresso Tutti Colori, the default theme for Espresso,
