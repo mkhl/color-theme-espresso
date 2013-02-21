@@ -1,4 +1,4 @@
-# color-theme-espresso
+# espresso-theme
 
 A light background color-theme based on the default theme for [Espresso][].
 
