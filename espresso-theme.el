@@ -1,7 +1,7 @@
 ;;; espresso-theme.el --- Espresso Tutti Colori port for Emacs
 
 ;; Author: Martin Kühl <purl.org/net/mkhl>
-;; URL: https://github.com/mkhl/color-theme-espresso
+;; URL: https://github.com/dgutov/espresso-theme
 ;; Version: 1.0
 
 ;;; Commentary:
